@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #e0e7ff 0%, #f9fafb 100%);
+    background: url("PT SIIX EMS Indonesia.png") no-repeat center center;
+    background-size: cover; /* ✅ ini yang membuat gambar sesuai ukuran layar */
 }
 
 
@@ -199,4 +200,5 @@ aside.card-2 {
     .card {
         padding: 10px
     }
+
 }
